@@ -1,0 +1,10 @@
+tqdm==4.42.0
+torch==1.2.0
+ipdb==0.13.2
+scipy==1.4.1
+dgl==0.5.2
+numpy==1.17.4
+pandas==1.0.3
+networkx==2.3
+scikit_learn==0.23.2
+tensorboardX==2.1
