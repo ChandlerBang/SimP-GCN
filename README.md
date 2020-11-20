@@ -1,5 +1,5 @@
 # SimP-GCN
-A Pytorch implementation of "Node Similarity Preserving Graph Convolutional Networks" (WSDM 2021). [[paper]]()
+A Pytorch implementation of "Node Similarity Preserving Graph Convolutional Networks" (WSDM 2021). [[paper]](https://arxiv.org/abs/2011.09643)
 
 <div align=center><img src="https://github.com/ChandlerBang/SimP-GCN/blob/main/SimP-GCN.png" width="700"/></div>
 
@@ -52,10 +52,18 @@ sh scripts/adversarial/cora.sh
 This repository is modified from [SelfTask-GNN](https://github.com/ChandlerBang/SelfTask-GNN), [DropEdge](https://github.com/DropEdge/DropEdge) and [Geom-GCN](https://github.com/graphdml-uiuc-jlu/geom-gcn). We sincerely thank them for their contributions.
 
 ## Cite
-For more information, you can take a look at the [paper]().
+For more information, you can take a look at the [paper](https://arxiv.org/abs/2011.09643).
 
 If you find this repo to be useful, please cite our paper. Thank you.
 ```
+@misc{jin2020node,
+      title={Node Similarity Preserving Graph Convolutional Networks}, 
+      author={Wei Jin and Tyler Derr and Yiqi Wang and Yao Ma and Zitao Liu and Jiliang Tang},
+      year={2020},
+      eprint={2011.09643},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
 ```
 
 <!--
