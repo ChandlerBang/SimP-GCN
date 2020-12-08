@@ -11,7 +11,7 @@ import scipy.sparse as sp
 device = torch.device("cuda:0")
 
 
-class GCNModel(nn.Module):
+class SimPGCN(nn.Module):
     """
        The model for the single kind of deepgcn blocks.
 
@@ -55,7 +55,7 @@ class GCNModel(nn.Module):
                            is "add", for others the default is "concat".
         :param mixmode: enable cpu-gpu mix mode. If true, put the inputlayer to cpu.
         """
-        super(GCNModel, self).__init__()
+        super(SimPGCN, self).__init__()
         self.mixmode = mixmode
         self.dropout = dropout
 

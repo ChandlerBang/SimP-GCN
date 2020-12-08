@@ -133,7 +133,7 @@ nclass = sampler.nclass
 print("nclass: %d\tnfea:%d" % (nclass, nfeat))
 
 # The model
-model = GCNModel(nfeat=nfeat,
+model = SimPGCN(nfeat=nfeat,
                  nhid=args.hidden,
                  nclass=nclass,
                  nhidlayer=args.nhiddenlayer,
