@@ -61,15 +61,15 @@ For more information, you can take a look at the [paper](https://arxiv.org/abs/2
 
 If you find this repo to be useful, please cite our paper. Thank you.
 ```
-@misc{jin2020node,
-      title={Node Similarity Preserving Graph Convolutional Networks}, 
-      author={Wei Jin and Tyler Derr and Yiqi Wang and Yao Ma and Zitao Liu and Jiliang Tang},
-      year={2020},
-      eprint={2011.09643},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@inproceedings{jin2020node,
+  title={Node Similarity Preserving Graph Convolutional Networks}, 
+  author={Jin, Wei and Derr, Tyler and Wang, Yiqi and Ma, Yao and Liu, Zitao and Tang, Jiliang},
+  booktitle={Proceedings of the 14th ACM International Conference on Web Search and Data Mining},
+  year={2021},
+  organization={ACM}
 }
 ```
+
 
 <!--
 See that in https://github.com/DSE-MSU/DeepRobust/blob/master/requirements.txt
